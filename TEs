@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validasi Sertifikat TOEFL</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { max-width: 600px; margin: auto; border: 1px solid #ddd; padding: 20px; }
+        .header { background-color: #4CAF50; color: white; padding: 10px; font-size: 18px; }
+        .profile-img { margin: 20px 0; width: 150px; height: auto; border-radius: 50%; }
+        .info-table { width: 100%; text-align: left; margin-top: 10px; }
+        .info-table td { padding: 5px; }
+        .score-table { width: 100%; text-align: left; margin-top: 10px; border-collapse: collapse; }
+        .score-table th, .score-table td { padding: 8px; border: 1px solid #ddd; }
+        .score-table th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">VALIDASI SERTIFIKAT TES TOEFL BERHASIL</div>
+        <img src="profile-photo.jpg" alt="Foto Peserta" class="profile-img">
+        <table class="info-table">
+            <tr><td><b>Nama Peserta</b></td><td>: ARIE ELVIS RAHAEL</td></tr>
+            <tr><td><b>Fakultas</b></td><td>: Pascasarjana</td></tr>
+            <tr><td><b>Jurusan | Prodi</b></td><td>: Magister Ilmu Hukum</td></tr>
+            <tr><td><b>Nomor Stambuk</b></td><td>: G2R123009</td></tr>
+            <tr><td><b>Jenis | Tanggal Tes</b></td><td>: TOEFL-Equivalent Test | 07 November 2024</td></tr>
+            <tr><td><b>Jenis Kelamin</b></td><td>: Laki-laki</td></tr>
+            <tr><td><b>Telepon</b></td><td>: 081247888253</td></tr>
+        </table>
+        <table class="score-table">
+            <tr><th>Listening Comprehension</th><td>48</td></tr>
+            <tr><th>Structure and Written Expression</th><td>49</td></tr>
+            <tr><th>Reading Comprehension</th><td>46</td></tr>
+            <tr><th>TOTAL SCORE</th><td>477</td></tr>
+        </table>
+    </div>
+</body>
+</html>
